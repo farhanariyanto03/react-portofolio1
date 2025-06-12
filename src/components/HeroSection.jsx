@@ -18,9 +18,9 @@ const HeroSection = () => {
               duration: 1.5,
               delay: 1.3,
             }}
-            className="text-5xl md:text-7xl lg:text-8xl font-bold z-10 mb-10 text-white"
+            className="text-5xl md:text-7xl lg:text-8xl font-bold z-10 mb-10 bg-gradient-to-r from-violet-500 to-yellow-500 text-transparent bg-clip-text"
           >
-            Building Fast <br /> Realible Result
+            Building Fast <br /> Reliable Result
           </motion.h1>
           <motion.p 
           initial={{ y: 80, opacity: 0 }}
@@ -32,17 +32,20 @@ const HeroSection = () => {
             duration: 1.8,
             delay: 1.5,
           }}
-          className="text-xl md:text-1xl lg:text-2xl text-purple-200 max-w-2xl z-10">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
-            tempora impedit explicabo, vero reprehenderit quas libero animi
-            commodi nostrum quisquam soluta sequi neque facere, nobis accusamus
-            sapiente dolores. Perferendis, in.
+          className="text-xl md:text-lg lg:text-md text-purple-100 max-w-2xl font-medium z-10">
+            We help you build fast and reliable results, allowing you to focus on
+            what matters most - growing your business. Our team of experts will
+            work with you to understand your needs and develop a solution that
+            meets your goals. With our expertise and technology, you can trust
+            that your project will be completed quickly and to the highest
+            standards.
           </motion.p>
         </div>
       </div>
 
       {/* Right content */}
-      <Spline className="absolute xl:right-[-28%] md:right-[-10%] w-[100%] h-[100%]" scene="https://prod.spline.design/FyXrV7scpdojLuv5/scene.splinecode" />
+      <Spline
+       className="absolute xl:right-[-28%] md:right-[-10%] sm:right-[-20%] w-[100%] h-[100%] sm:w-[50%] sm:h-[50%]" scene="https://prod.spline.design/FyXrV7scpdojLuv5/scene.splinecode" />
     </section>
   );
 };
