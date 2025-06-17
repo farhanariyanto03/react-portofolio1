@@ -20,7 +20,7 @@ const benefits = [
   },
 ];
 
-const WhyThinkSection = () => {
+const About = () => {
   return (
     <section className="bg-black text-white py-20 px-8 md:px-16 lg:px-24">
       <motion.div
@@ -30,10 +30,10 @@ const WhyThinkSection = () => {
         viewport={{ once: true }}
         className="text-center mb-16"
       >
-        <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-purple-400 to-yellow-400 text-transparent bg-clip-text">
+        <h2 className="text-4xl md:text-5xl font-bold mb-10 bg-gradient-to-r from-purple-400 to-yellow-400 text-transparent bg-clip-text">
           Mengapa Berpikir Kritis Itu Penting?
         </h2>
-        <p className="text-gray-300 text-lg max-w-2xl mx-auto">
+        <p className="text-gray-300 text-lg max-w-2xl mx-auto mb-4">
           Di tengah derasnya arus informasi, kemampuan untuk berpikir cepat dan kritis
           menjadi keunggulan utama dalam dunia profesional maupun kehidupan sehari-hari.
         </p>
@@ -59,4 +59,4 @@ const WhyThinkSection = () => {
   );
 };
 
-export default WhyThinkSection;
+export default About;
