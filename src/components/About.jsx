@@ -22,7 +22,7 @@ const benefits = [
 
 const About = () => {
   return (
-    <section className="bg-black text-white py-20 px-8 md:px-16 lg:px-24">
+    <section className="bg-gradient-to-b from-black via-gray-900 to-black text-white py-20 px-8 md:px-16 lg:px-24">
       <motion.div
         initial={{ y: 60, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
@@ -30,7 +30,7 @@ const About = () => {
         viewport={{ once: true }}
         className="text-center mb-16"
       >
-        <h2 className="text-4xl md:text-5xl font-bold mb-10 bg-gradient-to-r from-purple-400 to-yellow-400 text-transparent bg-clip-text">
+        <h2 className="text-4xl md:text-5xl font-bold mb-10 bg-gradient-to-r from-purple-400 to-yellow-400 text-transparent bg-clip-text shadow-lg">
           Mengapa Berpikir Kritis Itu Penting?
         </h2>
         <p className="text-gray-300 text-lg max-w-2xl mx-auto mb-4">
@@ -47,7 +47,7 @@ const About = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: index * 0.3 }}
             viewport={{ once: true }}
-            className="bg-gray-900 p-8 rounded-2xl shadow-lg hover:scale-105 transition-transform duration-300"
+            className="bg-gray-800 p-8 rounded-2xl shadow-xl hover:scale-105 hover:bg-gray-700 transition-transform duration-300"
           >
             <div className="mb-4">{item.icon}</div>
             <h3 className="text-xl font-semibold mb-2">{item.title}</h3>
@@ -60,3 +60,4 @@ const About = () => {
 };
 
 export default About;
+
