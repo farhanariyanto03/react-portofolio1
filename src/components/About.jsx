@@ -5,18 +5,18 @@ import { Lightbulb, BrainCircuit, TimerReset } from "lucide-react";
 const benefits = [
   {
     icon: <Lightbulb className="w-10 h-10 text-yellow-400" />,
-    title: "Solusi Lebih Cerdas",
-    desc: "Berpikir kritis membantu menemukan solusi yang lebih tepat dan tidak terburu-buru.",
+    title: "Smarter Solutions",
+    desc: "Critical thinking helps you find more accurate and less impulsive solutions.",
   },
   {
     icon: <BrainCircuit className="w-10 h-10 text-purple-400" />,
-    title: "Analisis Lebih Dalam",
-    desc: "Melatih otak untuk menelaah fakta dan data dengan lebih akurat dan terstruktur.",
+    title: "Deeper Analysis",
+    desc: "Train your brain to examine facts and data more accurately and structurally.",
   },
   {
     icon: <TimerReset className="w-10 h-10 text-blue-400" />,
-    title: "Keputusan Lebih Cepat",
-    desc: "Waktu adalah segalanya. Ambil keputusan dengan cepat tanpa mengorbankan kualitas.",
+    title: "Faster Decisions",
+    desc: "Time is everything. Make quick decisions without sacrificing quality.",
   },
 ];
 
@@ -31,11 +31,11 @@ const About = () => {
         className="text-center mb-16"
       >
         <h2 className="text-4xl md:text-5xl font-bold mb-10 bg-gradient-to-r from-purple-400 to-yellow-400 text-transparent bg-clip-text shadow-lg">
-          Mengapa Berpikir Kritis Itu Penting?
+          Why Critical Thinking is Important?
         </h2>
         <p className="text-gray-300 text-lg max-w-2xl mx-auto mb-4">
-          Di tengah derasnya arus informasi, kemampuan untuk berpikir cepat dan kritis
-          menjadi keunggulan utama dalam dunia profesional maupun kehidupan sehari-hari.
+          In the midst of the rapid flow of information, the ability to think quickly and critically
+          becomes a key advantage in both professional settings and everyday life.
         </p>
       </motion.div>
 
